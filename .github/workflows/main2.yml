@@ -2,7 +2,8 @@ name: node-docker-ci
 on:
   push:
     branches:
-      - 'master'
+      - master
+      - main
     tags:
       - '**' 
 jobs:
